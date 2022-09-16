@@ -1,0 +1,8 @@
+prefix=/home/mrmovement/ROS_S/demo03_ws/install
+
+Name: plumbing_srrver_client
+Description: Description of plumbing_srrver_client
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime
