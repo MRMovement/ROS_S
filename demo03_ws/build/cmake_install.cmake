@@ -133,6 +133,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/mrmovement/ROS_S/demo03_ws/build/gtest/cmake_install.cmake")
   include("/home/mrmovement/ROS_S/demo03_ws/build/plumbing_param_server/cmake_install.cmake")
   include("/home/mrmovement/ROS_S/demo03_ws/build/plumbing_srrver_client/cmake_install.cmake")
+  include("/home/mrmovement/ROS_S/demo03_ws/build/plubing_test/cmake_install.cmake")
 
 endif()
 

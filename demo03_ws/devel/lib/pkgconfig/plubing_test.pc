@@ -1,0 +1,8 @@
+prefix=/home/mrmovement/ROS_S/demo03_ws/devel
+
+Name: plubing_test
+Description: Description of plubing_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

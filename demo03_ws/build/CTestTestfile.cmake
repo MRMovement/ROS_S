@@ -7,3 +7,4 @@
 subdirs("gtest")
 subdirs("plumbing_param_server")
 subdirs("plumbing_srrver_client")
+subdirs("plubing_test")

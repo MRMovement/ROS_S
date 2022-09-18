@@ -1,2 +1,2 @@
-plumbing_param_server:plumbing_srrver_client
+plubing_test:plumbing_param_server:plumbing_srrver_client
 -DCATKIN_DEVEL_PREFIX=/home/mrmovement/ROS_S/demo03_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mrmovement/ROS_S/demo03_ws/install -G Unix Makefiles
