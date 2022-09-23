@@ -118,7 +118,7 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
+include
   ${catkin_INCLUDE_DIRS}
 )
 
@@ -140,6 +140,8 @@ add_executable(test01_pub_twist src/test01_pub_twist.cpp)
 add_executable(test02_sub_pose src/test02_sub_pose.cpp)
 add_executable(test03_service_client src/test03_service_client.cpp)
 add_executable(test04_param src/test04_param.cpp)
+add_executable(hello src/hello.cpp)
+
 
 
 
@@ -156,6 +158,8 @@ add_dependencies(test01_pub_twist ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_E
 add_dependencies(test02_sub_pose ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 add_dependencies(test03_service_client ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 add_dependencies(test04_param ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(hello ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+
 
 
 
@@ -170,6 +174,9 @@ target_link_libraries(test03_service_client
   ${catkin_LIBRARIES}
 )
 target_link_libraries(test04_param
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(hello
   ${catkin_LIBRARIES}
 )
 #############

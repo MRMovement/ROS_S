@@ -378,6 +378,21 @@ turtlesim_generate_messages_eus/fast:
 .PHONY : turtlesim_generate_messages_eus/fast
 
 # Convenience name for target.
+plubing_test/CMakeFiles/hello.dir/rule:
+	cd /home/mrmovement/ROS_S/demo03_ws/build && $(MAKE) -f CMakeFiles/Makefile2 plubing_test/CMakeFiles/hello.dir/rule
+.PHONY : plubing_test/CMakeFiles/hello.dir/rule
+
+# Convenience name for target.
+hello: plubing_test/CMakeFiles/hello.dir/rule
+
+.PHONY : hello
+
+# fast build rule for target.
+hello/fast:
+	cd /home/mrmovement/ROS_S/demo03_ws/build && $(MAKE) -f plubing_test/CMakeFiles/hello.dir/build.make plubing_test/CMakeFiles/hello.dir/build
+.PHONY : hello/fast
+
+# Convenience name for target.
 plubing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule:
 	cd /home/mrmovement/ROS_S/demo03_ws/build && $(MAKE) -f CMakeFiles/Makefile2 plubing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule
 .PHONY : plubing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule
@@ -451,6 +466,33 @@ std_srvs_generate_messages_lisp: plubing_test/CMakeFiles/std_srvs_generate_messa
 std_srvs_generate_messages_lisp/fast:
 	cd /home/mrmovement/ROS_S/demo03_ws/build && $(MAKE) -f plubing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make plubing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
 .PHONY : std_srvs_generate_messages_lisp/fast
+
+src/hello.o: src/hello.cpp.o
+
+.PHONY : src/hello.o
+
+# target to build an object file
+src/hello.cpp.o:
+	cd /home/mrmovement/ROS_S/demo03_ws/build && $(MAKE) -f plubing_test/CMakeFiles/hello.dir/build.make plubing_test/CMakeFiles/hello.dir/src/hello.cpp.o
+.PHONY : src/hello.cpp.o
+
+src/hello.i: src/hello.cpp.i
+
+.PHONY : src/hello.i
+
+# target to preprocess a source file
+src/hello.cpp.i:
+	cd /home/mrmovement/ROS_S/demo03_ws/build && $(MAKE) -f plubing_test/CMakeFiles/hello.dir/build.make plubing_test/CMakeFiles/hello.dir/src/hello.cpp.i
+.PHONY : src/hello.cpp.i
+
+src/hello.s: src/hello.cpp.s
+
+.PHONY : src/hello.s
+
+# target to generate assembly for a file
+src/hello.cpp.s:
+	cd /home/mrmovement/ROS_S/demo03_ws/build && $(MAKE) -f plubing_test/CMakeFiles/hello.dir/build.make plubing_test/CMakeFiles/hello.dir/src/hello.cpp.s
+.PHONY : src/hello.cpp.s
 
 src/test01_pub_twist.o: src/test01_pub_twist.cpp.o
 
@@ -587,11 +629,15 @@ help:
 	@echo "... turtlesim_generate_messages_lisp"
 	@echo "... turtlesim_generate_messages_eus"
 	@echo "... install/strip"
+	@echo "... hello"
 	@echo "... turtlesim_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... std_srvs_generate_messages_eus"
 	@echo "... std_srvs_generate_messages_lisp"
+	@echo "... src/hello.o"
+	@echo "... src/hello.i"
+	@echo "... src/hello.s"
 	@echo "... src/test01_pub_twist.o"
 	@echo "... src/test01_pub_twist.i"
 	@echo "... src/test01_pub_twist.s"

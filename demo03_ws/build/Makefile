@@ -883,6 +883,19 @@ turtlesim_generate_messages_eus/fast:
 .PHONY : turtlesim_generate_messages_eus/fast
 
 #=============================================================================
+# Target rules for targets named hello
+
+# Build rule for target.
+hello: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello
+.PHONY : hello
+
+# fast build rule for target.
+hello/fast:
+	$(MAKE) -f plubing_test/CMakeFiles/hello.dir/build.make plubing_test/CMakeFiles/hello.dir/build
+.PHONY : hello/fast
+
+#=============================================================================
 # Target rules for targets named turtlesim_generate_messages_nodejs
 
 # Build rule for target.
@@ -1015,6 +1028,7 @@ help:
 	@echo "... test01_pub_twist"
 	@echo "... turtlesim_generate_messages_lisp"
 	@echo "... turtlesim_generate_messages_eus"
+	@echo "... hello"
 	@echo "... turtlesim_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... std_srvs_generate_messages_cpp"

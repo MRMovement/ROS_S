@@ -9,7 +9,8 @@
                 "/opt/ros/noetic/include/**",
                 "/home/mrmovement/ROS_S/demo03_ws/src/plumbing_srrver_client/include/**",
                 "/usr/include/**",
-                "/home/mrmovement/ROS_S/demo03_ws/devel/include/**"
+                "/home/mrmovement/ROS_S/demo03_ws/devel/include/**",
+                "/home/mrmovement/ROS_S/demo03_ws/src/plubing_test/include/**"
             ],
             "name": "ROS",
             "intelliSenseMode": "linux-gcc-x64",

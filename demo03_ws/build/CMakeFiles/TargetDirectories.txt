@@ -102,6 +102,7 @@
 /home/mrmovement/ROS_S/demo03_ws/build/plubing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir
 /home/mrmovement/ROS_S/demo03_ws/build/plubing_test/CMakeFiles/turtlesim_generate_messages_eus.dir
 /home/mrmovement/ROS_S/demo03_ws/build/plubing_test/CMakeFiles/install/strip.dir
+/home/mrmovement/ROS_S/demo03_ws/build/plubing_test/CMakeFiles/hello.dir
 /home/mrmovement/ROS_S/demo03_ws/build/plubing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir
 /home/mrmovement/ROS_S/demo03_ws/build/plubing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir
 /home/mrmovement/ROS_S/demo03_ws/build/plubing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir

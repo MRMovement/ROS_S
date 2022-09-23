@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mrmovement/ROS_S/demo03_ws/src/plubing_test/src/test02_sub_pose.cpp" "/home/mrmovement/ROS_S/demo03_ws/build/plubing_test/CMakeFiles/test02_sub_pose.dir/src/test02_sub_pose.cpp.o"
+  "/home/mrmovement/ROS_S/demo03_ws/src/plubing_test/src/hello.cpp" "/home/mrmovement/ROS_S/demo03_ws/build/plubing_test/CMakeFiles/hello.dir/src/hello.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
