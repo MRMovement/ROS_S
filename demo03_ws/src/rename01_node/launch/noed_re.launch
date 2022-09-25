@@ -1,0 +1,16 @@
+<launch>
+<!-- 改变节点名称，同过launch -->
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim" />
+
+    <node pkg="turtlesim" type="turtlesim_node" name="t1" />
+
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim" ns="laogou" />
+
+    <node pkg="turtlesim" type="turtlesim_node" name="t1" ns="T1"/>
+
+
+
+
+
+
+</launch>
