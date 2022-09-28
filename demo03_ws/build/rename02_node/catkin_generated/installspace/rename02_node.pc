@@ -1,0 +1,8 @@
+prefix=/home/mrmovement/ROS_S/demo03_ws/install
+
+Name: rename02_node
+Description: Description of rename02_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

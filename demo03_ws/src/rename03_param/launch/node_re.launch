@@ -1,0 +1,10 @@
+<launch>
+    <!-- 全局变量 -->
+    <param name="ccnd" value="0.55" />
+    <node pkg="turtlesim" type="turtlesim_node" name="ti" ns="xxx" >
+    <!-- 私有 -->
+    <param name="ccnd" value="0.5" />
+
+    </node>
+
+</launch>

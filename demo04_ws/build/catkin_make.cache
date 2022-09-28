@@ -1,0 +1,2 @@
+tf01_static
+-DCATKIN_DEVEL_PREFIX=/home/mrmovement/ROS_S/demo04_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mrmovement/ROS_S/demo04_ws/install -G Unix Makefiles
