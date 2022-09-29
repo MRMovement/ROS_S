@@ -389,6 +389,19 @@ geometry_msgs_generate_messages_nodejs/fast:
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named demo01_static_pub
+
+# Build rule for target.
+demo01_static_pub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo01_static_pub
+.PHONY : demo01_static_pub
+
+# fast build rule for target.
+demo01_static_pub/fast:
+	$(MAKE) -f tf01_static/CMakeFiles/demo01_static_pub.dir/build.make tf01_static/CMakeFiles/demo01_static_pub.dir/build
+.PHONY : demo01_static_pub/fast
+
+#=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_py
 
 # Build rule for target.
@@ -769,6 +782,7 @@ help:
 	@echo "... actionlib_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_nodejs"
+	@echo "... demo01_static_pub"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_eus"
