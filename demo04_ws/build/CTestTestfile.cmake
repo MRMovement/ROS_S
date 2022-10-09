@@ -6,3 +6,5 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("tf01_static")
+subdirs("tf03_tsf")
+subdirs("tf02_dynamic")

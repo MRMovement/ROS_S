@@ -468,6 +468,21 @@ roscpp_generate_messages_py/fast:
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
+tf01_static/CMakeFiles/demo01_static_sub.dir/rule:
+	cd /home/mrmovement/ROS_S/demo04_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tf01_static/CMakeFiles/demo01_static_sub.dir/rule
+.PHONY : tf01_static/CMakeFiles/demo01_static_sub.dir/rule
+
+# Convenience name for target.
+demo01_static_sub: tf01_static/CMakeFiles/demo01_static_sub.dir/rule
+
+.PHONY : demo01_static_sub
+
+# fast build rule for target.
+demo01_static_sub/fast:
+	cd /home/mrmovement/ROS_S/demo04_ws/build && $(MAKE) -f tf01_static/CMakeFiles/demo01_static_sub.dir/build.make tf01_static/CMakeFiles/demo01_static_sub.dir/build
+.PHONY : demo01_static_sub/fast
+
+# Convenience name for target.
 tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
 	cd /home/mrmovement/ROS_S/demo04_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
@@ -734,6 +749,33 @@ src/demo01_static_pub.cpp.s:
 	cd /home/mrmovement/ROS_S/demo04_ws/build && $(MAKE) -f tf01_static/CMakeFiles/demo01_static_pub.dir/build.make tf01_static/CMakeFiles/demo01_static_pub.dir/src/demo01_static_pub.cpp.s
 .PHONY : src/demo01_static_pub.cpp.s
 
+src/demo01_static_sub.o: src/demo01_static_sub.cpp.o
+
+.PHONY : src/demo01_static_sub.o
+
+# target to build an object file
+src/demo01_static_sub.cpp.o:
+	cd /home/mrmovement/ROS_S/demo04_ws/build && $(MAKE) -f tf01_static/CMakeFiles/demo01_static_sub.dir/build.make tf01_static/CMakeFiles/demo01_static_sub.dir/src/demo01_static_sub.cpp.o
+.PHONY : src/demo01_static_sub.cpp.o
+
+src/demo01_static_sub.i: src/demo01_static_sub.cpp.i
+
+.PHONY : src/demo01_static_sub.i
+
+# target to preprocess a source file
+src/demo01_static_sub.cpp.i:
+	cd /home/mrmovement/ROS_S/demo04_ws/build && $(MAKE) -f tf01_static/CMakeFiles/demo01_static_sub.dir/build.make tf01_static/CMakeFiles/demo01_static_sub.dir/src/demo01_static_sub.cpp.i
+.PHONY : src/demo01_static_sub.cpp.i
+
+src/demo01_static_sub.s: src/demo01_static_sub.cpp.s
+
+.PHONY : src/demo01_static_sub.s
+
+# target to generate assembly for a file
+src/demo01_static_sub.cpp.s:
+	cd /home/mrmovement/ROS_S/demo04_ws/build && $(MAKE) -f tf01_static/CMakeFiles/demo01_static_sub.dir/build.make tf01_static/CMakeFiles/demo01_static_sub.dir/src/demo01_static_sub.cpp.s
+.PHONY : src/demo01_static_sub.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -766,6 +808,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... install/local"
+	@echo "... demo01_static_sub"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... actionlib_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
@@ -786,6 +829,9 @@ help:
 	@echo "... src/demo01_static_pub.o"
 	@echo "... src/demo01_static_pub.i"
 	@echo "... src/demo01_static_pub.s"
+	@echo "... src/demo01_static_sub.o"
+	@echo "... src/demo01_static_sub.i"
+	@echo "... src/demo01_static_sub.s"
 .PHONY : help
 
 
