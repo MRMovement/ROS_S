@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
     psAtSon1.point.z = 3.0;
 
 
-
+ 
 
     ros::Rate rate(10);
     while (ros::ok())
@@ -49,9 +49,9 @@ int main(int argc, char *argv[])
             geometry_msgs::PointStamped psAtSon2;
             psAtSon2 = buffer.transform(psAtSon1,"son2");
             ROS_INFO("坐标在Son2中的值(%.2f,%.2f,%.2f)",
-                    psAtSon1.point.x,
-                    psAtSon1.point.y,
-                    psAtSon1.point.z
+                    psAtSon2.point.x,
+                    psAtSon2.point.y,
+                    psAtSon2.point.z
             );
 
         }

@@ -86,6 +86,7 @@
 /home/mrmovement/ROS_S/demo04_ws/build/tf03_tsf/CMakeFiles/rebuild_cache.dir
 /home/mrmovement/ROS_S/demo04_ws/build/tf03_tsf/CMakeFiles/edit_cache.dir
 /home/mrmovement/ROS_S/demo04_ws/build/tf03_tsf/CMakeFiles/test.dir
+/home/mrmovement/ROS_S/demo04_ws/build/tf03_tsf/CMakeFiles/demo01_tfs.dir
 /home/mrmovement/ROS_S/demo04_ws/build/tf02_dynamic/CMakeFiles/install.dir
 /home/mrmovement/ROS_S/demo04_ws/build/tf02_dynamic/CMakeFiles/list_install_components.dir
 /home/mrmovement/ROS_S/demo04_ws/build/tf02_dynamic/CMakeFiles/rebuild_cache.dir
@@ -105,3 +106,13 @@
 /home/mrmovement/ROS_S/demo04_ws/build/tf02_dynamic/CMakeFiles/tf02_dynamic_pub.dir
 /home/mrmovement/ROS_S/demo04_ws/build/tf02_dynamic/CMakeFiles/tf02_dynamic_sub.dir
 /home/mrmovement/ROS_S/demo04_ws/build/tf02_dynamic/CMakeFiles/test.dir
+/home/mrmovement/ROS_S/demo04_ws/build/tf04_text/CMakeFiles/install/strip.dir
+/home/mrmovement/ROS_S/demo04_ws/build/tf04_text/CMakeFiles/install/local.dir
+/home/mrmovement/ROS_S/demo04_ws/build/tf04_text/CMakeFiles/edit_cache.dir
+/home/mrmovement/ROS_S/demo04_ws/build/tf04_text/CMakeFiles/test.dir
+/home/mrmovement/ROS_S/demo04_ws/build/tf04_text/CMakeFiles/install.dir
+/home/mrmovement/ROS_S/demo04_ws/build/tf04_text/CMakeFiles/list_install_components.dir
+/home/mrmovement/ROS_S/demo04_ws/build/tf04_text/CMakeFiles/rebuild_cache.dir
+/home/mrmovement/ROS_S/demo04_ws/build/tf04_text/CMakeFiles/test03_control_turtle2.dir
+/home/mrmovement/ROS_S/demo04_ws/build/tf04_text/CMakeFiles/test02_pub_turtle.dir
+/home/mrmovement/ROS_S/demo04_ws/build/tf04_text/CMakeFiles/test01_new_turtle.dir

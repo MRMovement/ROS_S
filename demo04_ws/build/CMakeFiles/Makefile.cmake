@@ -19,6 +19,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "tf02_dynamic/catkin_generated/package.cmake"
   "tf03_tsf/catkin_generated/ordered_paths.cmake"
   "tf03_tsf/catkin_generated/package.cmake"
+  "tf04_text/catkin_generated/ordered_paths.cmake"
+  "tf04_text/catkin_generated/package.cmake"
   "/home/mrmovement/ROS_S/demo04_ws/src/CMakeLists.txt"
   "/home/mrmovement/ROS_S/demo04_ws/src/tf01_static/CMakeLists.txt"
   "/home/mrmovement/ROS_S/demo04_ws/src/tf01_static/package.xml"
@@ -26,6 +28,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/mrmovement/ROS_S/demo04_ws/src/tf02_dynamic/package.xml"
   "/home/mrmovement/ROS_S/demo04_ws/src/tf03_tsf/CMakeLists.txt"
   "/home/mrmovement/ROS_S/demo04_ws/src/tf03_tsf/package.xml"
+  "/home/mrmovement/ROS_S/demo04_ws/src/tf04_text/CMakeLists.txt"
+  "/home/mrmovement/ROS_S/demo04_ws/src/tf04_text/package.xml"
   "/opt/ros/noetic/share/actionlib/cmake/actionlib-msg-extras.cmake"
   "/opt/ros/noetic/share/actionlib/cmake/actionlibConfig-version.cmake"
   "/opt/ros/noetic/share/actionlib/cmake/actionlibConfig.cmake"
@@ -241,6 +245,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "tf01_static/CMakeFiles/CMakeDirectoryInformation.cmake"
   "tf03_tsf/CMakeFiles/CMakeDirectoryInformation.cmake"
   "tf02_dynamic/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "tf04_text/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -291,6 +296,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "tf01_static/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "tf01_static/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake"
   "tf01_static/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/DependInfo.cmake"
+  "tf03_tsf/CMakeFiles/demo01_tfs.dir/DependInfo.cmake"
   "tf02_dynamic/CMakeFiles/turtlesim_generate_messages_eus.dir/DependInfo.cmake"
   "tf02_dynamic/CMakeFiles/turtlesim_generate_messages_lisp.dir/DependInfo.cmake"
   "tf02_dynamic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/DependInfo.cmake"
@@ -303,4 +309,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "tf02_dynamic/CMakeFiles/turtlesim_generate_messages_cpp.dir/DependInfo.cmake"
   "tf02_dynamic/CMakeFiles/tf02_dynamic_pub.dir/DependInfo.cmake"
   "tf02_dynamic/CMakeFiles/tf02_dynamic_sub.dir/DependInfo.cmake"
+  "tf04_text/CMakeFiles/test03_control_turtle2.dir/DependInfo.cmake"
+  "tf04_text/CMakeFiles/test02_pub_turtle.dir/DependInfo.cmake"
+  "tf04_text/CMakeFiles/test01_new_turtle.dir/DependInfo.cmake"
   )

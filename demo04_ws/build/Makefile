@@ -766,6 +766,19 @@ actionlib_msgs_generate_messages_lisp/fast:
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named demo01_tfs
+
+# Build rule for target.
+demo01_tfs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo01_tfs
+.PHONY : demo01_tfs
+
+# fast build rule for target.
+demo01_tfs/fast:
+	$(MAKE) -f tf03_tsf/CMakeFiles/demo01_tfs.dir/build.make tf03_tsf/CMakeFiles/demo01_tfs.dir/build
+.PHONY : demo01_tfs/fast
+
+#=============================================================================
 # Target rules for targets named turtlesim_generate_messages_eus
 
 # Build rule for target.
@@ -921,6 +934,45 @@ tf02_dynamic_sub/fast:
 	$(MAKE) -f tf02_dynamic/CMakeFiles/tf02_dynamic_sub.dir/build.make tf02_dynamic/CMakeFiles/tf02_dynamic_sub.dir/build
 .PHONY : tf02_dynamic_sub/fast
 
+#=============================================================================
+# Target rules for targets named test03_control_turtle2
+
+# Build rule for target.
+test03_control_turtle2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test03_control_turtle2
+.PHONY : test03_control_turtle2
+
+# fast build rule for target.
+test03_control_turtle2/fast:
+	$(MAKE) -f tf04_text/CMakeFiles/test03_control_turtle2.dir/build.make tf04_text/CMakeFiles/test03_control_turtle2.dir/build
+.PHONY : test03_control_turtle2/fast
+
+#=============================================================================
+# Target rules for targets named test02_pub_turtle
+
+# Build rule for target.
+test02_pub_turtle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test02_pub_turtle
+.PHONY : test02_pub_turtle
+
+# fast build rule for target.
+test02_pub_turtle/fast:
+	$(MAKE) -f tf04_text/CMakeFiles/test02_pub_turtle.dir/build.make tf04_text/CMakeFiles/test02_pub_turtle.dir/build
+.PHONY : test02_pub_turtle/fast
+
+#=============================================================================
+# Target rules for targets named test01_new_turtle
+
+# Build rule for target.
+test01_new_turtle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test01_new_turtle
+.PHONY : test01_new_turtle
+
+# fast build rule for target.
+test01_new_turtle/fast:
+	$(MAKE) -f tf04_text/CMakeFiles/test01_new_turtle.dir/build.make tf04_text/CMakeFiles/test01_new_turtle.dir/build
+.PHONY : test01_new_turtle/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -980,6 +1032,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... actionlib_msgs_generate_messages_lisp"
+	@echo "... demo01_tfs"
 	@echo "... turtlesim_generate_messages_eus"
 	@echo "... turtlesim_generate_messages_lisp"
 	@echo "... turtlesim_generate_messages_nodejs"
@@ -992,6 +1045,9 @@ help:
 	@echo "... turtlesim_generate_messages_cpp"
 	@echo "... tf02_dynamic_pub"
 	@echo "... tf02_dynamic_sub"
+	@echo "... test03_control_turtle2"
+	@echo "... test02_pub_turtle"
+	@echo "... test01_new_turtle"
 .PHONY : help
 
 

@@ -134,6 +134,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/mrmovement/ROS_S/demo04_ws/build/tf01_static/cmake_install.cmake")
   include("/home/mrmovement/ROS_S/demo04_ws/build/tf03_tsf/cmake_install.cmake")
   include("/home/mrmovement/ROS_S/demo04_ws/build/tf02_dynamic/cmake_install.cmake")
+  include("/home/mrmovement/ROS_S/demo04_ws/build/tf04_text/cmake_install.cmake")
 
 endif()
 

@@ -1,0 +1,8 @@
+prefix=/home/mrmovement/ROS_S/demo04_ws/devel
+
+Name: tf04_text
+Description: Description of tf04_text
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
