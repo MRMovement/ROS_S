@@ -19,6 +19,8 @@ tf2_geometry_msgs/tf2_geometry_msgs.h
 /home/mrmovement/ROS_S/demo04_ws/src/tf04_text/src/tf2_geometry_msgs/tf2_geometry_msgs.h
 geometry_msgs/TransformStamped.h
 /home/mrmovement/ROS_S/demo04_ws/src/tf04_text/src/geometry_msgs/TransformStamped.h
+geometry_msgs/Twist.h
+/home/mrmovement/ROS_S/demo04_ws/src/tf04_text/src/geometry_msgs/Twist.h
 
 /opt/ros/noetic/include/geometry_msgs/Point.h
 string
@@ -208,6 +210,26 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 geometry_msgs/Transform.h
+-
+
+/opt/ros/noetic/include/geometry_msgs/Twist.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+geometry_msgs/Vector3.h
+-
+geometry_msgs/Vector3.h
 -
 
 /opt/ros/noetic/include/geometry_msgs/Vector3.h
