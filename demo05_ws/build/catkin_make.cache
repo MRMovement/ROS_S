@@ -1,0 +1,2 @@
+urdf01_rviz
+-DCATKIN_DEVEL_PREFIX=/home/mrmovement/ROS_S/demo05_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mrmovement/ROS_S/demo05_ws/install -G Unix Makefiles

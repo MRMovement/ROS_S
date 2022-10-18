@@ -51,14 +51,14 @@ int main(int argc, char *argv[])
                 Z=系数*反正切（对边，邻边）
              */
             twist.linear.x = 0.5 * sqrt(pow(son1Toson2.transform.translation.x,2)+pow(son1Toson2.transform.translation.y,2));
-            twist.linear.y = 4 * atan2(son1Toson2.transform.translation.y,son1Toson2.transform.translation.x);
+            twist.linear.z = 4 * atan2(son1Toson2.transform.translation.y,son1Toson2.transform.translation.x);
 
             pub.publish(twist);
 
         }
         catch(const std::exception& e)
         {
-            ROS_INFO("错误提斯：%s",e.what());
+            ROS_INFO("错误提示：%s",e.what());
         }
         
 
