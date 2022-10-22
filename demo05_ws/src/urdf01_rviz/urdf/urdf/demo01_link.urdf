@@ -1,0 +1,26 @@
+<!-- 设置不同形状的机器人部件 -->
+
+<robot name="mycar">
+    <link   name="base_link">
+        <!-- 可视化标签 -->
+        <visual>
+        <!-- 形状 -->
+            <geometry>
+                <!-- 1.1立方体 -->
+                <box size="0.3 0.2 0.1" />
+                <!-- 1.2圆柱 -->
+                <!-- <cylinder radius="0.1" length="2" /> -->
+                <!-- 1.3球体 -->
+                <!-- <sphere radius="0.5" /> -->
+            </geometry> 
+                <!-- 倾斜弧度 -->
+                <!-- 
+                xyz 设置机器人模型在x y z的偏移量
+                rpy 用于设置机器人的倾斜弧度 x（翻滚）y（俯仰）z（偏航）
+
+                 -->
+            <origin xyz="3 0 0" rpy="0 0 0" />
+
+        </visual>
+    </link>
+</robot>
