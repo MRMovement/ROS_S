@@ -1,36 +1,57 @@
 <robot name="mycar" xmlns:xacro="http://wiki.ros.org/xacro">
-<!-- 雷达部件 -->
-<!-- 支架设计 -->
-<!-- 
-    参数
-    11.支架尺寸：半径，高度，
-    12.关节偏移量：xyz
-    21.雷达尺寸
-    22.雷达偏移量
- -->
- <xacro:property name="suport_radius" value="0.01" />
- <xacro:property name="suport_length" value="0.15" />
- <xacro:property name="laser_radius" value="0.03" />
- <xacro:property name="laser_length" value="0.05" />
+    <!-- 雷达部件 -->
+    <!-- 支架设计 -->
+    <!-- 
+        参数
+        11.支架尺寸：半径，高度，
+        12.关节偏移量：xyz
+        21.雷达尺寸
+        22.雷达偏移量
+    -->
+    <xacro:property name="suport_radius" value="0.01" />
+    <xacro:property name="suport_length" value="0.15" />
+    <xacro:property name="laser_radius" value="0.03" />
+    <xacro:property name="laser_length" value="0.05" />
 
- <xacro:property name="joinit_suport_x" value="0" />
- <xacro:property name="joinit_suport_y" value="0" />
- <xacro:property name="joinit_suport_z" value="${base_length / 2 + suport_length / 2}" />
- <xacro:property name="joinit_laser_x" value="0" />
- <xacro:property name="joinit_laser_y" value="0" />
- <xacro:property name="joinit_laser_z" value="${base_length / 2 + laser_length / 2}" />
+    <xacro:property name="joint_suport_x" value="0" />
+    <xacro:property name="joint_suport_y" value="0" />
+    <xacro:property name="joint_suport_z" value="${base_length / 2 + suport_length / 2}" />
+    <xacro:property name="joint_laser_x" value="0" />
+    <xacro:property name="joint_laser_y" value="0" />
+    <xacro:property name="joint_laser_z" value="${suport_length + laser_length / 2}" />
 
-<link>
-    <geometry>
-        
+    <link name="suport">
+        <visual>
+            <geometry>
+                <cylinder radius="${suport_radius}" length="${suport_length}" />
+            </geometry>
+            <material name="yellow">
+                <color rgba="0.8 0.5 0.0 0.5" />
+            </material>
+        </visual>
+    </link>
 
+    <joint name="suport2base" type="fixed">
+        <parent link="base_link" />
+        <child link="suport" />
+        <origin xyz="${joint_suport_x} ${joint_suport_y} ${joint_suport_z}" rpy="0 0 0" />
+    </joint>
+    <!-- 雷达 -->
 
-    </geometry>
-</link>
-<!-- 雷达 -->
+    <link name="laser">
+        <visual>
+            <geometry>
+                <cylinder radius="${laser_radius}" length="${laser_length}" />
+            </geometry>
+            <material name="black">
+                <color rgba="0.0 0.0 0.0 0.5" />
+            </material>
+        </visual>
+    </link>
 
-
-
-
-
-</robot >
+    <joint name="laser2base" type="fixed">
+        <parent link="base_link" />
+        <child link="laser" />
+        <origin xyz="${joint_laser_x} ${joint_laser_y} ${joint_laser_z}" rpy="0 0 0" />
+    </joint>
+</robot>

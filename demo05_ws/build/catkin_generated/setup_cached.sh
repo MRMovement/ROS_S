@@ -5,11 +5,11 @@
 # it emulates the modifications of the setup script without recurring computations
 
 # new environment variables
+export ROSLISP_PACKAGE_DIRECTORIES='/home/mrmovement/ROS_S/demo05_ws/devel/share/common-lisp'
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/mrmovement/ROS_S/demo05_ws/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/mrmovement/ROS_S/demo05_ws/devel/lib:$LD_LIBRARY_PATH"
 export PKG_CONFIG_PATH="/home/mrmovement/ROS_S/demo05_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/mrmovement/ROS_S/demo05_ws/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/mrmovement/ROS_S/demo05_ws/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/mrmovement/ROS_S/demo05_ws/src:$ROS_PACKAGE_PATH"
