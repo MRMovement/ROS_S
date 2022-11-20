@@ -4,6 +4,6 @@
     <!-- 启动gazebo的仿真环境 -->
     <include file="${find gazebo_ros}/launch/empty_world.launch" />
     <!-- gazebo中添加机器人模型 -->
-
+    <node pkg="gazebo_ros" type="spwam_model" name="spwam_model" args="-urdf -model car -param robot_description" />
 
 </launch>
